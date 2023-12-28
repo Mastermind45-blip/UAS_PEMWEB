@@ -1,0 +1,97 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, button, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container-supplier {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-supplier div {
+    width: 48%; /* Adjust as needed */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.tabel-1 {
+    width: 100%;
+}
+
+.tabel-1 input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.navigation-container {
+    text-align: right;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tabel-2 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabel-2 th, .tabel-2 td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabel-2 th {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+button[type="button"] {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+button[type="button"] a {
+    color: #fff;
+    text-decoration: none;
+}
